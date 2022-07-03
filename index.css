@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(background3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+span {
+    color: #ffb703;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+}
+.logo {
+    color: #219ebc;
+    font-size: 39px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #8ecae6;
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.navbar ul li a:hover{
+    color: #fb8500;
+    transition: 0.4s;
+}
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:#023047;
+    border: 1px solid red;
+    background-color: #ffb703;
+    border-radius: 30px;
+    padding: 5px;
+    transition: transform .4s;
+    margin-left: 10px;
+
+}
+
+.btn:hover{
+    color:#fb8500;
+    transform: scale(5.2);
+}
+#logo-youtube {
+    color: red;
+    font-size: 30px;
+    transition: 0.4s ease;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: #ffb703;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3 {
+    color: #ffb703;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+h4 {
+    color:#219ebc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 300px;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 300px;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #ffb703;
+    outline: none;
+    color:#000;
+    border-radius: 30px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:#8ecae6;
+    color: #023047;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #023047;
+    top: 6px;
+    right: 6px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 550px;
+    font-size: 40px;
+}
+.icons .icon a {
+    padding-left: 30px;
+    color:#ffb703;
+    transition: .4s ease;
+}
+
+.icons .icon a:hover{
+    color:#fb8500;
+    transform: scale(10px)
+}
